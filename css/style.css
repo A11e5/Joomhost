@@ -1,0 +1,45 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --main-blue: #2b7ce8;
+    --menu-link: #2f3f54;
+    --text-black: #212121;
+    --footer-color: #304054;
+    --footer-title: #d0e4ff;
+    --footer-text: #718db2;
+}
+
+/* GENERAL */
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* HEADER */
+
+.header {
+    border-top: 1px solid var(--main-blue);
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    height: 86px;
+    align-items: center;
+}
+
+.menu__list {
+    display: flex;
+    gap: 40px;
+}
+
+.menu__list a {
+    color: var(--menu-link);
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
